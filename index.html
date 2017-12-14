@@ -7,16 +7,34 @@ lang: en
 
 <div class="home">
 
-  <h1 class="page-heading">Web Presence on GitHub</h1>
+  <h1 class="page-heading">Government of Canada web presence</h1>
 
+<div>
 
-  {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in posts %}
-<section class="col-md-6">
+    <p> Canada.ca is the user-centric, task based Web experience of the Government of Canada. </p>
 
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3><img src="./thumbs/{{ post.date | date: "%F" | img_url: '100x100' crop: 'center' }}.png" alt="{{ post.alt }}" class="img-responsive thumbnail"></a>
-		<p><small>[{{ post.date | date: "%F" }}]</small> - {{ post.description }}</p>
+</div>
+
+<section class="col-md-4">
+
+<h3 a href="./whatis.html">What is Canada.ca</h3>
+
+<p>Topic tree, top tasks and governance</p>
 
 </section>
 
-  {% endfor %}
+<section class="col-md-4">
+
+<h3 a href="./howwedesign.html">How we design Canada.ca</h3>
+
+<p>Design system, Content style guide, Content and Information architecture specifications, templates and controlled vocabularies</p>
+
+</section>
+
+<section class="col-md-4">
+
+<h3 a href="./howweimprove.html">How we improve Canada.ca</h3>
+
+<p>Optimization projects, tasking to insitutions, and user testing and research</p>
+
+</section>
