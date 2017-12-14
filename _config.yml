@@ -7,7 +7,7 @@
 
 # Site settings
 baseurl: "/web-presence" # the subpath of your site, e.g. /blog
-url: "http://gc-proto.github.io/web-presence" # the base hostname & protocol for your site
+url: "http://gc-proto.github.io" # the base hostname & protocol for your site
 twitter_username: canada-ca
 github_username:  canada-ca
 
