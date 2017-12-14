@@ -1,4 +1,4 @@
-# canada-ca.github.io
-Github pages for Canada-ca
+# gc-proto/web-presence
+GCpedia web presence
 
-[Alpha Blog](https://canada-ca.github.io/) current content relating to User research and testing around Canada.ca.
+[Alpha Blog] (https://gc-proto.github.io/web-presence/index.html)

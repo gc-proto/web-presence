@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://canada-ca.github.io" # the base hostname & protocol for your site
+baseurl: "/web-presence" # the subpath of your site, e.g. /blog
+url: "http://gc-proto.github.io" # the base hostname & protocol for your site
 twitter_username: canada-ca
 github_username:  canada-ca
 
@@ -26,11 +26,11 @@ home:
   en: Home
   fr: Accueil
 AllPosts:
-  en: Canada.ca blog
-  fr: blogue de Canada.ca
+  en: Web presence
+  fr: Présence web
 feed:
-  en: /feed.xml
-  fr: /flux.xml
+  en:
+  fr:
 language:
   en: English
   fr: Français
@@ -67,7 +67,7 @@ YouAreHere:
 GCActivitiesInitiatives:
   en: Government of Canada activities and initiatives
   fr: Activités et initiatives du gouvernement du Canada
- 
+
 
 # Build settings
 markdown: kramdown
