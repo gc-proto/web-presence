@@ -13,8 +13,8 @@ github_username:  canada-ca
 
 # Translations
 title:
-  en: Canada-ca
-  fr: Canada-ca
+  en: Web presence
+  fr: Présence web
 email: your-email@canada.ca
 description:
   en: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
@@ -53,8 +53,8 @@ SearchWebsite:
   en: Search website
   fr: Recherchez le site Web
 SearchCanadaCa:
-  en: Search Canada.ca
-  fr: Rechercher dans Canada.ca
+  en: Search web presence
+  fr: Rechercher dans présence web
 Search:
   en: Search
   fr: Recherche
@@ -67,6 +67,9 @@ YouAreHere:
 GCActivitiesInitiatives:
   en: Government of Canada activities and initiatives
   fr: Activités et initiatives du gouvernement du Canada
+Aboutgovernment:
+  en: About government
+  fr: À propos du gouvernement
 
 
 # Build settings

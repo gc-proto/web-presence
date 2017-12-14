@@ -1,11 +1,13 @@
 </main>
-<aside class="gc-nttvs container">
+<!-- <aside class="gc-nttvs container">
 <h2>{{ site.GCActivitiesInitiatives[page.lang] }}</h2>
 <div id="gcwb_prts" class="wb-eqht row wb-init wb-eqht-inited" data-ajax-replace="https://cdn.canada.ca/gcweb-cdn-live/features/features-{{ page.lang }}.html"></div>
-</aside>
+</aside> -->
 <footer role="contentinfo" id="wb-info">
 <nav role="navigation" class="container wb-navcurr">
-<h2 class="wb-inv">About government</h2>
+<h2 class="wb-inv">{{ site.Aboutgovernment[page.lang] }}</h2>
+<ul class="list-unstyled colcount-sm-2 colcount-md-3" data-ajax-replace="https://gc-proto/web-presence/aboutgov-{{ page.lang }}.html">>
+<!-- <h2 class="wb-inv">About government</h2>
 <ul class="list-unstyled colcount-sm-2 colcount-md-3">
 <li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
 <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
@@ -16,7 +18,7 @@
 <li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
 <li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
 <li><a href="http://open.canada.ca/en/">Open government</a></li>
-</ul> </nav>
+</ul>  --> </nav>
 <div class="brand">
 <div class="container">
 <div class="row">
@@ -46,6 +48,6 @@
 <!--<![endif]-->
 <!--[if lt IE 9]>
 		<script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
-		
+
 		<![endif]-->
 <script src="{{ site.baseurl }}/wet-boew/js/theme.min.js"></script>
