@@ -23,7 +23,7 @@
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for my_page in pages %}
     {% if my_page.lang != page.lang %}
-      <li><a lang="{{ my_page.lang }}" hreflang="{{ my_page.lang }}" href="{{ my_page.url | prepend: site.baseurl }}">{{ site.language[my_page.lang] }}</a></li>
+      <li><a lang="{{ my_page.lang }}" style="color:red;" hreflang="{{ my_page.lang }}" href="{{ my_page.url | prepend: site.baseurl }}">{{ site.language[my_page.lang] }}</a></li>
     {% endif %}
   {% endfor %}
 
