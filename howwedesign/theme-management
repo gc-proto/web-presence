@@ -1,0 +1,58 @@
+---
+layout: default
+ref: howwedesign
+lang: en
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Theme Management Committee   </h1>
+
+<div>
+
+    <p>Learn about the Theme Management Committee and how it supports the work on Canada.ca.</p>
+
+</div>
+  
+<section>
+
+<h2 id="s1">What the Theme Management Committee does</h2>
+
+<p>The Theme Management Committee is held monthly to support the Assistant Deputy Minister Web Management Committee by:</p>
+<ul>
+        <li>exploring theme governance opportunities and challenges</li>
+        <li>examining overlaps or gaps in the topic structure that could impact task findability</li>
+        <li>putting forward recommendations that entail significant changes to a theme and/or topic structure</li>
+        <li>sharing ways that support the efficient development of topic structures, topic page links and their descriptions</li>
+</ul>
+
+<p>Learn more about the <a href="hhttp://www.gcpedia.gc.ca/wiki/Theme_Management_Committee_(TMC)">Theme Management Committee (links to Government of Canada internal website).</a></p>
+
+<h2 id="s1">Canada.ca themes</h2>
+<p>The themes on Canada.ca are managed by the Treasury Board Secretariat of Canada and upheld by the Theme Management Committee. There 18 themes and departments reflected in the Canada.ca structure.</p>
+
+<div class="table-bravo">
+       <table class="table table-bordered">
+
+<thead><tr class="bg-primary"><th scope="col">Theme</th>
+<th scope="col">Department responsible</th>
+</tr></thead>
+<tbody>
+<tr><td>Culture, history and sport</td><td>Canadian Heritage</td></tr>
+<tr><td>Benefitst</td><td>Employment and Social Development Canada (Service Canada)</td></tr>
+<tr><td>Business and industry</td><td>Innovation, Science and Economic Development Canada</td></tr>
+<tr><td>Canada and the world</td><td>Global Affairs Canada</td></tr>
+<tr><td>National security and defence</td><td>National Defence</td></tr>
+<tr><td>Environment and natural resources</td><td>Environment and Climate Change Canada</td></tr>
+<tr><td>Health</td><td>Health Canada</td></tr>
+<tr><td>Immigration and citizenship</td><td>Immigration, Refugees and Citizenship Canada</td></tr>
+<tr><td>Jobs and the workplace</td><td>Employment and Social Development Canada</td></tr>
+<tr><td>Money and finances</td><td>Innovation, Science and Economic Development Canada</td></tr>
+<tr><td>Policing, justice and emergencies</td><td>Public Safety Canada</td></tr>
+<tr><td>Science and innovation</td><td>Innovation, Science and Economic Development Canada</td></tr>
+<tr><td>Taxes</td><td>Canada Revenue Agency</td></tr>
+<tr><td>Transport and infrastructure</td><td>Transport Canada</td></tr>
+<tr><td>Travel and tourism</td><td>Transport Canada</td></tr>
+<tr><td>How government works</td><td>Treasury Board of Canada Secretariat</td></tr>
+<tr><td>Public service and military</td><td>Treasury Board of Canada Secretariat</td></tr>
+<tr><td>Indigenous peoples (Audience page)</td><td>Indigenous and Northern Affairs Canada</td></tr>
