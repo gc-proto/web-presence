@@ -1,0 +1,65 @@
+---
+layout: default
+ref: ministerial
+lang: en
+---
+
+</header>
+<main role="main" property="mainContentOfPage" class="container">
+<h1 property="name" id="wb-cont">Common design patterns</h1>
+
+
+<table id="designlayout" class="wb-tables tbl-gridify" data-wb-tables='{"order" : [ 0, "asc" ], "bPaginate" : false,
+             "columnDefs": [
+                { "targets": [4], "visible": false },
+                { "targets": [5], "visible": false },
+                { "targets": [6], "visible": false }
+              ]}'>
+      <caption class="wb-inv">
+      Design elements
+      </caption>
+      <thead>
+        <tr>
+          <th>Design option</th>
+          <th>Description</th>
+          <th>Keywords</th>
+          <th>Example</th>
+		  <th>Related to</th>
+		  <th>Design category</th>
+		  <th>Design feature</th>
+        </tr>
+      </thead>
+      <tbody class="row wb-eqht">
+      
+       <tr class="col-xs-12 col-sm-6 col-md-4">
+          <td><a href="design/buttons-en.html" class="h4 mrgn-tp-0 mrgn-bttm-0">Buttons </a></td>
+          <td><p>Use buttons to create a call to action that entices the user to  submit content from a form. Also, use buttons  also take users to a webpage that provides  additional information. </p></td>
+          <td class="text-muted small">Tags: Colour, Links</td>
+          <td><hr class="mrgn-tp-0">
+            <ul class="list-inline lst-spcd">
+              <li>
+                <button class="btn btn-default" type="button">Default</button>
+              </li>
+              <li>
+                <button class="btn btn-primary" type="button">Primary</button>
+              </li>
+              <li>
+                <button class="btn btn-success" type="button">Success</button>
+              </li>
+              <li>
+                <button class="btn btn-info" type="button">Info</button>
+              </li>
+              <li>
+                <button class="btn btn-warning" type="button">Warning</button>
+              </li>
+              <li>
+                <button class="btn btn-danger" type="button">Danger</button>
+              </li>
+                          </ul>
+            </td>
+			<td>CSS Style</td>
+			<td>Basic effects,Text effects,Callouts</td>
+			<td>Buttons</td>
+        </tr>
+ </tbody>
+    </table>
