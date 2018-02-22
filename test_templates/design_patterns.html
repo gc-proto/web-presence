@@ -9,6 +9,99 @@ lang: en
 <h1 property="name" id="wb-cont">Common design patterns</h1>
 
 
+<form class="wb-tables-filter" data-bind-to="designlayout">
+<div class="row">
+<div class="col-md-4">
+<div class="form-group">
+<label for="dt_wetfeature">Features related to</label>
+<select class="form-control" id="dt_wetfeature" name="dt_wetfeature" data-column="4">
+	<option value="">All</option>
+	<option value="CSS Style">CSS Style</option>
+	<option value="Plugins">Plugins</option>
+	<option value="Themes">Themes</option>
+	<option value="Variant">Variant</option>
+</select>
+</div>
+</div>
+<div class="col-md-4">
+<div class="form-group">
+<label for="dt_corecategory">Core design category</label>
+<select class="form-control" id="dt_corecategory" name="dt_corecategory" data-column="5">
+	<option value="">All</option>
+	<option value="Structure and placement">Structure and placement</option>
+	<option value="Basic effects">Basic effects</option>
+	<option value="Text effects">Text effects</option>
+	<option value="Menus and navigation">Menus and navigation</option>
+	<option value="Callouts">Callouts</option>
+</select>
+</div>
+</div>
+<div class="col-md-4">
+<div class="form-group">
+<label for="dt_specificfeatures">Specific design features</label>
+<select class="form-control" id="dt_specificfeatures" name="dt_specificfeatures" data-column="6">
+<option value="">All</option>
+<optgroup label="Structure and placement">
+	<option value="Absolute positioning">Absolute positioning</option>
+	<option value="Alignment">Alignment</option>
+	<option value="Floats">Floats</option>
+	<option value="Grids">Grids</option>
+	<option value="Margin proximity">Margin proximity</option>
+	<option value="Reflowing content around grids">Reflowing content around grids</option>
+</optgroup>
+<optgroup label="Basic effects">
+	<option value="Borders">Borders</option>
+	<option value="Buttons">Buttons</option>
+	<option value="Colour">Colour</option>
+	<option value="Forms">Forms</option>
+	<option value="Icons">Icons</option>
+	<option value="Images">Images</option>
+	<option value="Invisible and visible content">Invisible and visible content</option>
+	<option value="Opacity">Opacity</option>
+</optgroup>
+<optgroup label="Text effects">
+	<option value="Quotations">Quotations</option>
+	<option value="Code">Code</option>
+	<option value="Headings">Headings</option>
+	<option value="Links">Links</option>
+	<option value="Lists">Lists</option>
+	<option value="Keyboard keys">Keyboard keys</option>
+	<option value="Sizing">Sizing</option>
+	<option value="Tables">Tables</option>
+	<option value="Text editing effects">Text editing effects</option>
+	<option value="Variables">Variables</option>
+	<option value="Wrapping and truncating text">Wrapping and truncating text</option>
+</optgroup>
+<optgroup label="Menus and navigation">
+	<option value="Buttons">Buttons</option>
+	<option value="List group">List group</option>
+	<option value="Pagination">Pagination</option>
+	<option value="Pills">Pills</option>
+</optgroup>
+<optgroup label="Callouts">
+	<option value="Alerts">Alerts</option>
+	<option value="Badges">Badges</option>
+	<option value="Buttons">Buttons</option>
+	<option value="Labels">Labels</option>
+	<option value="Jumbotron">Jumbotron</option>
+	<option value="Panels">Panels</option>
+	<option value="Progress bar and meter">Progress bar and meter</option>
+	<option value="Wells">Wells</option>
+</optgroup>
+
+</select>
+    </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 pull-right">
+<div class="pull-right">
+	<button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Filter</button>
+	<button type="reset" class="btn btn-default">Clear</button>
+</div>
+</div>
+</div>
+</form>
 <table id="designlayout" class="wb-tables tbl-gridify" data-wb-tables='{"order" : [ 0, "asc" ], "bPaginate" : false,
              "columnDefs": [
                 { "targets": [4], "visible": false },
@@ -60,6 +153,28 @@ lang: en
 			<td>CSS Style</td>
 			<td>Basic effects,Text effects,Callouts</td>
 			<td>Buttons</td>
+        </tr>
+	        <td><a href="http://wet-boew.github.io/v4.0-ci/demos/details/details-en.html"  class="h4 mrgn-tp-0 mrgn-bttm-0">Collapsible content</a></td>
+          <td><p>Use  to create collapsible expand and hide widgets that a  user can select to show or hide content. </p></td>
+          <td class="text-muted small">Tags: Toggle, Links</td>
+          <td><hr class="mrgn-tp-0">
+            <ul class="list-unstyled">
+              <li>
+                <details>
+                  <summary>Example 1</summary>
+                  <p>Content goes here</p>
+                </details>
+              </li>
+              <li>
+                <details open>
+                  <summary>Example 2</summary>
+                  <p>Content goes here</p>
+                </details>
+              </li>
+            </ul></td>
+		  <td>Plugins</td>
+		  <td></td>
+		  <td></td>
         </tr>
  </tbody>
     </table>
