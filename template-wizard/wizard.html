@@ -25,13 +25,27 @@ lang: en
 				  <p>Do you want to create or update the home page of a department, institution, organization, or partnership?</p>
 				  <ul>
 					<li data-wb-fieldflow='{"action": "append", "source": "#question-1a"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#question-2"}'>No</li>
+				  </ul>
+				</div>
+				  
+				  <!-- Question 1A -->
+				<div id="question-1a" class="wb-fieldflow" data-wb-fieldflow='{
+							"renderas":"radio", 
+							"noForm": true,
+							"base": { "live": true },
+											"default": { "action": "addClass", "source":"#result1,#result2,#result3,#result4", "class": "hidden" }
+					}'>
+				  <p>Is the home page for a partnership or collaborative arrangement, for activities involving another government, company, organization, group or individual? </p>
+				  <ul>
+					<li data-wb-fieldflow='{"action": "append", "source": "#result1a"}'>Yes</li>
 					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result1"}'>No</li>
 				  </ul>
 				</div>
 
 				<!-- Question 2 -->
 				<div id="question-2" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
-				  <p>Are they expected to recover?</p>
+				  <p>Do you want to promote an initiative or an event, or support a promotional campaign?</p>
 				  <ul>
 					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result2"}'>Yes</li>
 					<li data-wb-fieldflow='{"action": "append", "source": "#question-3"}'>No</li>
@@ -40,57 +54,231 @@ lang: en
 
 				<!-- Question 3 -->
 				<div id="question-3" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
-				  <p>Will a doctor certify they are at a significant risk of death within 6 months?</p>
+				  <p>Do you want to consult Canadians?</p>
 				  <ul>
 					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result3"}'>Yes</li>
-					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result4"}'>No</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#question-4"}'>No</li>
+				  </ul>
+				</div>	
+				  
+				  <!-- Question 4 -->
+				<div id="question-4" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+				  <p>Will the page be used to launch a task or service? </p>
+				  <p>This includes tasks like: </p>
+					    
+					<ul>
+					<li>Apply for a benefit</li>
+				 	<li>Apply for a grant</li>
+					<li>Apply for a passport</li>
+					</ul>
+				  <ul>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result4"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#question-5"}'>No</li>
 				  </ul>
 				</div>	
 
+				   <!-- Question 5 -->
+				<div id="question-5" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+				  <p>Will the content be background information about a program (and not actual information used to access a program or service)?</p>
+			
+				  <ul>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result5"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#question-6"}'>No</li>
+				  </ul>
+				</div>
+				  
+				  <!-- Question 6 -->
+				<div id="question-6" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+				  <p>Do you want to report your organization’s performance on service standards, as required by the Policy on Service? </p>
+			
+				  <ul>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result6"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#question-7"}'>No</li>
+				  </ul>
+				</div>
+				  
+				  <!-- Question 7 -->
+				<div id="question-7" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+				  <p>DAre you publishing a topic page? Topic pages form the global topic tree. They allow Canadians to find services and information without knowing which institution is responsible for the content.</p>
+			
+				  <ul>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result7"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#question-8"}'>No</li>
+				  </ul>
+				</div>
+				  
+				  <!-- Question 8 -->
+				<div id="question-8" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+				  <p>Will the page be used to list elements of a group, like a list of documents or publications, or a list of acts or regulations?</p>
+			
+				  <ul>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result8"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#question-9"}'>No</li>
+				  </ul>
+				</div>
+				  
+				  <!-- Question 9 -->
+				<div id="question-9" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+				  <p>Do you want to present information on an act or regulation? </p>
+			
+				  <ul>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result9"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#question-10"}'>No</li>
+				  </ul>
+				</div>
 
+				  <!-- Question 10 -->
+				<div id="question-10" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+				  <p>Do you want to publish content about a Minister? </p>
+			
+				  <ul>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result10"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#question-11"}'>No</li>
+				  </ul>
+				</div>
+				  
+				  <!-- Question 11 -->
+				<div id="question-11" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+				  <p>Do you want to publish information about how to contact your institution? </p>
+			
+				  <ul>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result11"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result12"}'>No</li>
+				  </ul>
+				</div>
+				  
 			<!--Result-->
-			<div id="result1" class="hidden">
+			<div id="result1a" class="hidden">
 				<section class="panel panel-default">
-				  <header class="panel-heading">
-					<h2 class="panel-title">You do not qualify</h2>
-				  </header>
-				  <div class="panel-body">
-					<p>Your answers indicate you are not eligible for caregiver benefits. A medical doctor or nurse practioner will be required to certify that the illness puts the patient's life at risk and that they require care or support.</p>
+				  	 <div class="panel-body">
+					<p>Use the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/partnering-collaborative-arrangement-profile-pages.html">Partnering and collaborative arrangement profile page</a>.</p>
+				   </div>
+				</section>
+			</div>
+			div id="result1" class="hidden">
+				<section class="panel panel-default">
+				  	 <div class="panel-body">
+					<p>If your institution is in this list, use the appropriate template for your corporate presence. If you are not in this list, you are not part of Canada.ca)</p>
+					<p>***add a filterable list with links to profiles***</p>
 				   </div>
 				</section>
 			</div>
 			<div id="result2" class="hidden">
 				<section class="panel panel-default">
-				  <header class="panel-heading">
-					<h2 class="panel-title">Family caregiver benefits</h2>
-				  </header>
-				  <div class="panel-body">
-					<p>You should apply for "Family caregiver benefits". Make sure the doctor can certify that there was a "sudden change from baseline health".</p>
+				    <div class="panel-body">
+					<p>To promote an initiative or an event, use one of the following templates. Note that these are intended for temporary use (for the duration of the promotional campaign).</p>
+					   <ul>
+					<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/campaign-pages.html">Campaign page</a></li>
+				 	<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/promotional-events-pages.html">Promotional events page</a></li>
+					</ul>
 				   </div>
 				</section>
 			</div>
 			<div id="result3" class="hidden">
 				<section class="panel panel-default">
-				  <header class="panel-heading">
-					<h2 class="panel-title">Compassionate care benefit</h2>
-				  </header>
 				  <div class="panel-body">
-					<p>You should apply for "Compassionate care benefits".</p>
+					<p>Use the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/consultations-pages.html">consultation template</a>.</p>
 				   </div>
 				</section>
 			</div>
+				
 			<div id="result4" class="hidden">
 				<section class="panel panel-default">
-				  <header class="panel-heading">
-					<h2 class="panel-title">Family caregiver benefits</h2>
-				  </header>
+				  
 				  <div class="panel-body">
-					<p>You should apply for "Family caregiver benefits." Make sure the doctor can certify that there was a "sudden change from baseline health."</p>
-				    <p>If their condition deteriorates and the doctor will certify they are reaching end of life within 6 months (26 weeks), the benefit period can be extended with "Compassionate care benefits."</p>
+					<p>Use the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/service-initiation-pages.html">service initiation template</a>.</p>
+				   </div>
+				</section>
+			</div>
+				
+				<div id="result5" class="hidden">
+				<section class="panel panel-default">
+				  
+				  <div class="panel-body">
+					<p>Use the <a href=https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/program-description-pages.html">program description page</a>.</p>
+				   </div>
+				</section>
+			</div>
+						
+			<div id="result6" class="hidden">
+				<section class="panel panel-default">
+				  
+				  <div class="panel-body">
+					<p>Use the <a href=https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/institutional-service-performance-reporting-pages.html">Institutional service performance reporting page</a>.</p>
+				   </div>
+				</section>
+			</div>
+				
+				<div id="result7" class="hidden">
+				<section class="panel panel-default">
+				  
+				  <div class="panel-body">
+					<p>Use the <a href=https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/topic-pages.html">topic page</a>.</p>
+						<p>Topic page should not only be used if they are part of the <a href=https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/topic-tree.html">topic tree</a>. They are navigational in nature, and should not be used when several tasks should be grouped together. Always consult your Theme Lead before creating a new topic page. </p>
 				   </div>
 				</section>
 			</div>
 
+				<div id="result8" class="hidden">
+				<section class="panel panel-default">
+				  
+				  <div class="panel-body">
+					<p>Use one of the following templates:</p>
+						<ul>
+					<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/pages-index.html#short">Short index</a>: use for short lists (10 to 50 items)</li>
+				 	<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/pages-index.html#long">Long index</a>: use for longer lists (50+ items)</li>
+					<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/pages-index.html#finder">Finder page</a>: use for long lists that can be filtered </li>
+					<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/pages-index.html#faceted">Faceted finder page</a>: use for long lists, with faceted filtering</li>
+					<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/collection-landing-pages.html">Collection landing page</a>: for official GC collections</li>
+					<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/guidance-legislation-pages.html">Guidance on legislation profile pages</a>: gives access to guidance on legislation</li>
+					</ul>
+				   </div>
+				</section>
+			</div>
+				
+			<div id="result9" class="hidden">
+				<section class="panel panel-default">
+				  
+				  <div class="panel-body">
+					<p>Use one of the following templates:</p>
+					   <ul>
+					<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/laws-regulations-pages.html#act-profile">Act profile page</a></li>
+				 	<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/laws-regulations-pages.html#regulation-profile">Regulation profile page</a></li>
+					</ul>
+				   </div>
+				</section>
+			</div>
+				
+				<div id="result10" class="hidden">
+				<section class="panel panel-default">
+				  
+				  <div class="panel-body">
+					<p>Use the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/ministerial-profile-pages.html">Ministerial profile template</a>.</p>
+				   </div>
+				</section>
+			</div>
+				<div id="result11" class="hidden">
+				<section class="panel panel-default">
+				  
+				  <div class="panel-body">
+					<p>Use one of the <a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/contact-us-pages.html">Contact us pages</a>.</p>
+				   </div>
+				</section>
+			</div>
+				
+				<div id="result12" class="hidden">
+				<section class="panel panel-default">
+				  
+				  <div class="panel-body">
+					<p>There are no specific template for your content.</p>
+					  <p>You can use the<a href="https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications/generic-destination-pages.html">Generic destination template</a>.</p>
+				<p>Local navigation patterns</p>
+					  
+				<p>Common design patterns</p>
+				   </div>
+				</section>
+			</div>
+				
 			</form>
 			</div>
 		</section>
