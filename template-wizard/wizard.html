@@ -1,0 +1,97 @@
+---
+layout: default
+ref: howto
+lang: en
+---
+
+<div class="home">
+<h1 class="page-heading">Find the right template for the job</h1>
+
+		<section>
+			<!--Wizard embed-->
+			<p>Answer the following questions to find out if there is a template you should use.</p>
+			<!-- This embed code may be restricted to use on a single domain, see documentation at: https://help.surveygizmo.com/help/iframe-embed#limit-permitted-domains-for-embeds -->
+			<div class="wb-frmvld"> 
+			  <form method="get">
+
+				<!-- Illness wizard Q1 -->
+				<div id="question-1" class="wb-fieldflow" data-wb-fieldflow='{
+							"renderas":"radio", 
+							"noForm": true,
+							"base": { "live": true },
+											"default": { "action": "addClass", "source":"#result1,#result2,#result3,#result4", "class": "hidden" }
+					}'>
+				  <p>Do you want to create or update the home page of a department, institution, organization, or partnership?</p>
+				  <ul>
+					<li data-wb-fieldflow='{"action": "append", "source": "#question-1a"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result1"}'>No</li>
+				  </ul>
+				</div>
+
+				<!-- Question 2 -->
+				<div id="question-2" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+				  <p>Are they expected to recover?</p>
+				  <ul>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result2"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "append", "source": "#question-3"}'>No</li>
+				  </ul>
+				</div>	
+
+				<!-- Question 3 -->
+				<div id="question-3" class="hidden wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
+				  <p>Will a doctor certify they are at a significant risk of death within 6 months?</p>
+				  <ul>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result3"}'>Yes</li>
+					<li data-wb-fieldflow='{"action": "removeClass", "class": "hidden", "source": "#result4"}'>No</li>
+				  </ul>
+				</div>	
+
+
+			<!--Result-->
+			<div id="result1" class="hidden">
+				<section class="panel panel-default">
+				  <header class="panel-heading">
+					<h2 class="panel-title">You do not qualify</h2>
+				  </header>
+				  <div class="panel-body">
+					<p>Your answers indicate you are not eligible for caregiver benefits. A medical doctor or nurse practioner will be required to certify that the illness puts the patient's life at risk and that they require care or support.</p>
+				   </div>
+				</section>
+			</div>
+			<div id="result2" class="hidden">
+				<section class="panel panel-default">
+				  <header class="panel-heading">
+					<h2 class="panel-title">Family caregiver benefits</h2>
+				  </header>
+				  <div class="panel-body">
+					<p>You should apply for "Family caregiver benefits". Make sure the doctor can certify that there was a "sudden change from baseline health".</p>
+				   </div>
+				</section>
+			</div>
+			<div id="result3" class="hidden">
+				<section class="panel panel-default">
+				  <header class="panel-heading">
+					<h2 class="panel-title">Compassionate care benefit</h2>
+				  </header>
+				  <div class="panel-body">
+					<p>You should apply for "Compassionate care benefits".</p>
+				   </div>
+				</section>
+			</div>
+			<div id="result4" class="hidden">
+				<section class="panel panel-default">
+				  <header class="panel-heading">
+					<h2 class="panel-title">Family caregiver benefits</h2>
+				  </header>
+				  <div class="panel-body">
+					<p>You should apply for "Family caregiver benefits." Make sure the doctor can certify that there was a "sudden change from baseline health."</p>
+				    <p>If their condition deteriorates and the doctor will certify they are reaching end of life within 6 months (26 weeks), the benefit period can be extended with "Compassionate care benefits."</p>
+				   </div>
+				</section>
+			</div>
+
+			</form>
+			</div>
+		</section>
+			
+		<!-- END h3 -->
